@@ -1,4 +1,4 @@
-package co.edu.uniquindio.edu.co;
+package co.edu.uniquindio.edu.co.SRP.MalaPractica;
 
 import java.time.LocalDate;
 
@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * Esto es lo que NO se debe hacer en el principio SOLID 1, el principio de responsabilidad única SRP
  *
  */
-public class Empleado{
+public class EmpleadoMalaResponsabilidadUnica{
     private String nombre;
     private int salario;
     private LocalDate vacaciones;
