@@ -10,4 +10,8 @@ public class Trapecio extends Figura {
     public double calcularPerimetro() {
         return ladoB+ladob+ladoL+ladol ;
     }
+    @Override
+    public double calcularVolumen(){
+        return 0;
+    }
 }

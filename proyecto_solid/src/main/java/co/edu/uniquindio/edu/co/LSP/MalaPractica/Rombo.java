@@ -7,5 +7,9 @@ public class Rombo extends Figura {
     public double calcularPerimetro() {  
         return 4*lado;
     }
+    @Override
+    public double calcularVolumen(){
+        return 0;
+    }
 }
 
