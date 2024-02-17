@@ -15,4 +15,9 @@ public class Trapecio extends Figura {
     public double calcularPerimetro() {
         return ladoB+ladob+ladoL+ladol ;
     }
+
+    @Override
+    public double calcularVolumen() {
+        throw new UnsupportedOperationException("No se puede calcular el volumen de un trapecio");
+    }
 }
