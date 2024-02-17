@@ -1,5 +1,5 @@
 package co.edu.uniquindio.edu.co.OCP;
 
-public class ejemploBienHecho {
+public class ejemplo_bien_hecho {
     
 }
