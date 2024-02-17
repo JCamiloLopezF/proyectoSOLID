@@ -13,4 +13,5 @@ public class CalcularAreaTotal {
         return totalArea;
     }
     //se podrán agregar figuras, sin necesidad de modificar el codigo en este bloque
+    //así se usa el principio OCP
 }
