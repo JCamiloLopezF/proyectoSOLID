@@ -1,6 +1,6 @@
 package co.edu.uniquindio.edu.co.ISP.BuenaPractica;
 
-public class Violin implements InstumentoMusical {
+public class Violin implements Acorde, Escala, Vibrato {
 
     @Override
     public void tocarAcorde() {
@@ -13,8 +13,8 @@ public class Violin implements InstumentoMusical {
     }
 
     @Override
-    public void tocarPiezaMusical() {
-        System.out.println("tocar Paganiniana");
+    public void tocarVibrato() {
+        System.out.println("tocar vibrato sostenuto");
     }
     
 }

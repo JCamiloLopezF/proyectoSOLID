@@ -1,6 +1,6 @@
 package co.edu.uniquindio.edu.co.ISP.BuenaPractica;
 
-public class Guitarra implements InstumentoMusical{
+public class Guitarra implements Acorde, Escala, Vibrato{
 
     @Override
     public void tocarAcorde() {
@@ -13,8 +13,8 @@ public class Guitarra implements InstumentoMusical{
     }
 
     @Override
-    public void tocarPiezaMusical() {
-        System.out.println("tocar Adelita de Francisco Tárrega");
+    public void tocarVibrato() {
+        System.out.println("tocar vibrato en la 4ta cuerda en el 2do traste");
     }
 
 }

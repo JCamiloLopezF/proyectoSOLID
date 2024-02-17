@@ -6,3 +6,5 @@ public interface InstumentoMusical {
     public void tocarEscala();
     public void tocarVibrato();
 }
+/*Mala practica aqui ya que esta todo en una interfaz general y 
+no segregada o separada en varias interfaces */

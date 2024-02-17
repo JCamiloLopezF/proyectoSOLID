@@ -1,6 +1,6 @@
 package co.edu.uniquindio.edu.co.ISP.BuenaPractica;
 
-public class Piano implements InstumentoMusical {
+public class Piano implements Acorde, Escala{
 
     @Override
     public void tocarAcorde() {
@@ -13,9 +13,8 @@ public class Piano implements InstumentoMusical {
         System.out.println("tocar escala de re");
     }
 
-    @Override
-    public void tocarPiezaMusical() {
-        System.out.println("tocar Chopin Nocturne in c# minor");
-    }
+    /* Como se puede ver aqui, la interfaz vibrato no es necesaria 
+    para el cliente piano por lo que no se implemento, , mostrando así la flexibilidad y 
+    usabilidad de la segregación de interfaces */
 
 }
