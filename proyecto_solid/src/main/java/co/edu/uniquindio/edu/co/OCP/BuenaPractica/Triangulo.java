@@ -1,6 +1,7 @@
-package co.edu.uniquindio.edu.co.OCP.MalaPractica;
+package co.edu.uniquindio.edu.co.OCP.BuenaPractica;
 
-public class Triangulo {
+
+public class Triangulo implements Calculo{
     private double base;
     private double altura;
     private int CONSTANTE = 2;
@@ -11,7 +12,8 @@ public class Triangulo {
         CONSTANTE = CONSTANTE;
     }
 
-    public double calcularAreaFigura(){
+    @Override
+    public double calcularArea(){
         return (base*altura)/CONSTANTE;
     }
 }
