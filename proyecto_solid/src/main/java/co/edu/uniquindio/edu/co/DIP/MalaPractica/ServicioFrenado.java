@@ -4,6 +4,6 @@ public class ServicioFrenado {
 
 
     public void usarFreno(){
-        
+        System.out.println("Frenar");
     }
 }

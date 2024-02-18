@@ -4,6 +4,6 @@ public class ServicioAceleracion {
 
 
     public void usarAcelerador(){
-        
+        System.out.println("Acelerar");
     }
 }
