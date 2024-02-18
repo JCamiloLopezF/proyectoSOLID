@@ -10,7 +10,6 @@ public class Triangulo {
         this.altura = altura;
         CONSTANTE = CONSTANTE;
     }
-
     public double calcularAreaFigura(){
         return (base*altura)/CONSTANTE;
     }

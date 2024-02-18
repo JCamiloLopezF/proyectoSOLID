@@ -1,6 +1,5 @@
 package co.edu.uniquindio.edu.co.OCP.BuenaPractica;
 
-
 public class Triangulo implements Calculo{
     private double base;
     private double altura;
